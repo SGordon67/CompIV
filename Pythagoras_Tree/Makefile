@@ -2,14 +2,14 @@ all: main.o PTree.o main2.o PTree2.o ps1 ps1-2
 
 
 main.o : main.cpp PTree.cpp PTree.hpp
-	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ main.cpp -L/opt/homebrew/Cellar/sfml/2.6.1/lib/
+	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ main.cpp
 PTree.o : PTree.cpp PTree.hpp
-	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ PTree.cpp -L/opt/homebrew/Cellar/sfml/2.6.1/lib/
+	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ PTree.cpp
 
 main2.o : main2.cpp PTree2.cpp PTree2.hpp
-	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ main2.cpp -L/opt/homebrew/Cellar/sfml/2.6.1/lib/
+	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ main2.cpp
 PTree2.o : PTree2.cpp PTree2.hpp
-	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ PTree2.cpp -L/opt/homebrew/Cellar/sfml/2.6.1/lib/
+	g++ -Wall -c -I/opt/homebrew/Cellar/sfml/2.6.1/include/ PTree2.cpp
 
 
 ps1 : main.o PTree.o
