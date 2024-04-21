@@ -1,0 +1,17 @@
+Image encoder and decoder  
+Scott Gordon  
+
+Similar to other programs in this repository, you must have the SFML library installed.  
+
+To run, provide four command line arguments after running 'make'.  
+    1. Image name  
+    2. Output image name  
+    3. Binary random seed (string of 1's and 0's)  
+    4. Tap position  
+
+When decoding, provide the same random seed and tap position to get back the origian image.  
+An image of my cat Simba is provided for some sample input :)  
+
+Sample input:  
+./PhotoMagic Simba.png Simba-out.png 10010011101 4  
+./PhotoMagic Simba-out.png Simba-new.png 10010011101 4  
