@@ -1,0 +1,17 @@
+NBody Simulation  
+Scott Gordon  
+
+Similar to other programs in this repository, you must have the SFML library installed.  
+
+To run, provide three command line arguments after running 'make'.  
+    1. Duration of the simulation  
+    2. Simulation time increment  
+
+To properly run, you must also redirect from the file 'planets.txt' to standard input.  
+Some other sample input files are provided for different experiences.  
+
+After running, the state of the universe is stored in 'output.txt', and this file can be used as input again.  
+
+Example inputs:  
+./NBody 1577880000.0 5000.0 < data/planets.txt  
+./NBody 1577880000.0 5000.0 < data/planets-elliptical.txt  
