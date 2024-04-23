@@ -1,0 +1,11 @@
+DNA Sequence Alignment (Edit Distance)  
+Scott Gordon  
+
+Similar to other programs in this repository, you must have the SFML library installed.  
+
+To run, you must redirect from an input text file to standard input.  
+Some example input files are provided.  
+
+Example inputs:  
+./ED < data/endgaps7.txt  
+./ED < data/ecoli9000.txt  
